@@ -165,23 +165,13 @@ const eisha = {
 ## 🌐 Connect With Me
 
 <p>
+  <a href="https://github.com/eisha-tur-razia-11">
+    <img src="https://img.shields.io/badge/Portfolio-GitHub_Profile-7dd3fc?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio Badge" />
+  </a>
   <a href="https://www.linkedin.com/in/eisha-tur-razia-730a13366">
-    <img src="https://img.shields.io/badge/LinkedIn-Eisha%20Tur%20Razia-7dd3fc?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Eisha_Tur_Razia-7dd3fc?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
   </a>
   <a href="mailto:maryam7861st@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-7dd3fc?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact_Me-7dd3fc?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
   </a>
-  <a href="https://github.com/eisha-tur-razia-11">
-    <img src="https://img.shields.io/badge/GitHub-eisha-tur-razia-11-7dd3fc?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <i>Thanks for visiting my profile! Let's learn, build, analyze, and grow together. 🚀</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7dd3fc&height=120&section=footer" />
 </p>
