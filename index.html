@@ -5,57 +5,235 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eisha-Tur-Razia | Portfolio</title>
     <style>
-        :root { --bg: #0f172a; --card: #1e293b; --accent: #7dd3fc; --text: #f8fafc; --sub: #94a3b8; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; }
-        header { text-align: center; padding: 40px 0; border-bottom: 1px solid #334155; }
-        h1 { color: var(--accent); font-size: 2.5rem; margin-bottom: 5px; }
-        p.subtitle { color: var(--sub); font-size: 1.2rem; }
-        .btn { display: inline-block; padding: 10px 20px; background: var(--accent); color: var(--bg); font-weight: bold; border-radius: 6px; text-decoration: none; margin-top: 15px; }
-        .section { background: var(--card); padding: 25px; border-radius: 10px; margin: 20px 0; border: 1px solid #334155; }
-        h2 { color: var(--accent); border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 5px; }
-        ul { list-style-type: square; padding-left: 20px; }
-        .contact-info { color: var(--sub); }
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --accent: #7dd3fc;
+            --text: #f8fafc;
+            --sub: #94a3b8;
+            --border: #334155;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        h1 {
+            color: var(--accent);
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+        p.subtitle {
+            color: var(--sub);
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: var(--accent);
+            color: var(--bg);
+            font-weight: bold;
+            border-radius: 6px;
+            text-decoration: none;
+            margin: 5px;
+            transition: 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        .section {
+            background: var(--card);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 1px solid var(--border);
+        }
+        h2 {
+            color: var(--accent);
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        h3 {
+            color: var(--text);
+            margin-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .card {
+            background: #0f172a;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        .badge {
+            display: inline-block;
+            background: #334155;
+            color: var(--accent);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin: 3px;
+        }
+        .contact-info {
+            color: var(--sub);
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Header -->
         <header>
             <h1>Eisha-Tur-Razia</h1>
-            <p class="subtitle">Computer Science Student | Web & Game Developer | Data Analyst Intern</p>
-            <a href="Eisha%20cv.pdf" class="btn" download>📄 Download My CV</a>
+            <p class="subtitle">Computer Science Student | Web & Game Developer | Data Analyst Intern | PR & Marketing Officer</p>
+            <div>
+                <a href="Eisha%20cv.pdf" class="btn" download>📄 Download My CV</a>
+                <a href="https://github.com/eisha-tur-razia-11" class="btn" target="_blank">🐙 GitHub Profile</a>
+                <a href="https://www.linkedin.com/in/eisha-tur-razia-730a13366" class="btn" target="_blank">💼 LinkedIn</a>
+            </div>
         </header>
 
+        <!-- About Me -->
         <div class="section">
-            <h2>About Me</h2>
-            <p>I am a Computer Science student at Ibadat International University Islamabad, passionate about web design, game development, coding, and data analytics.</p>
+            <h2>👋 About Me</h2>
+            <p>
+                I am a Computer Science student at Ibadat International University Islamabad with hands-on experience in web development, game development, coding, and data analytics. Currently serving as a Data Analyst Intern and PR & Marketing Officer, I specialize in analyzing raw data to extract business insights, building functional applications, and driving communication strategies.
+            </p>
         </div>
 
+        <!-- Skills & Tech Stack -->
         <div class="section">
-            <h2>Education</h2>
+            <h2>🧰 Technical Skills & Tools</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>💻 Programming & Web</h3>
+                    <span class="badge">Python</span>
+                    <span class="badge">C++</span>
+                    <span class="badge">Web Design</span>
+                    <span class="badge">Coding</span>
+                    <span class="badge">Game Development</span>
+                </div>
+                <div class="card">
+                    <h3>📊 Data Analytics & Databases</h3>
+                    <span class="badge">SQL</span>
+                    <span class="badge">MySQL</span>
+                    <span class="badge">PostgreSQL</span>
+                    <span class="badge">SQLite</span>
+                    <span class="badge">Pandas</span>
+                    <span class="badge">NumPy</span>
+                    <span class="badge">Matplotlib</span>
+                    <span class="badge">Power BI</span>
+                    <span class="badge">Excel</span>
+                </div>
+                <div class="card">
+                    <h3>📢 Marketing & Tools</h3>
+                    <span class="badge">PR & Marketing</span>
+                    <span class="badge">Hosting (School/College)</span>
+                    <span class="badge">Photo/Video Editing</span>
+                    <span class="badge">Git & GitHub</span>
+                    <span class="badge">VS Code</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="section">
+            <h2>🚀 Featured Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>📊 Retail Customer Sales Performance Analysis</h3>
+                    <p>Retail customer sales analysis, business insights, and executive dashboard project built with Python, SQL, and Power BI.</p>
+                    <a href="https://github.com/eisha-tur-razia-11/Retail-Customer-Sales-Performance-Analysis" target="_blank">View Code 🔗</a>
+                </div>
+                <div class="card">
+                    <h3>🎓 Student Performance Prediction System</h3>
+                    <p>Console-based C++ system for managing student records, calculating performance metrics, and predicting overall grades.</p>
+                    <a href="https://github.com/eisha-tur-razia-11/Student-Performance-Prediction-System" target="_blank">View Code 🔗</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience & Projects Repository -->
+        <div class="section">
+            <h2>💼 Practical Experience & Repositories</h2>
             <ul>
-                <li><strong>Matric (Punjab Board):</strong> 645 / 1100 (2014 – 2018)</li>
-                <li><strong>FSC ICS (Punjab Board):</strong> 646 / 1100 (2018 – 2024)</li>
-                <li><strong>BS Computer Science:</strong> Ibadat International University Islamabad (2024 – 2028)</li>
+                <li><strong>Built Websites & Layouts:</strong> Designed custom responsive layouts and structured web pages.</li>
+                <li><strong>Video & Photo Editing:</strong> Media content creation and graphical layout design.</li>
+                <li><strong>Event Hosting:</strong> Experience conducting formal events at school and college levels.</li>
+                <li><strong>Day 20 – Stakeholder Review:</strong> Dashboard requirements and stakeholder analysis (<a href="https://github.com/eisha-tur-razia-11/Day-20-Stakeholder-Review" target="_blank">View</a>).</li>
+                <li><strong>Day 19 – Insight Validation & Sensitivity Analysis:</strong> Business metrics validation (<a href="https://github.com/eisha-tur-razia-11/AI-Lab-99-Week3-Day19-Insight-Validation-Sensitivity-Analysis-eisha-tur-razia-11-" target="_blank">View</a>).</li>
+                <li><strong>Day 17 – Core Business Analysis:</strong> Trend, segmentation, and contribution analysis (<a href="https://github.com/eisha-tur-razia-11/eisha-tur-razia-11-day-17-data-analyst" target="_blank">View</a>).</li>
+                <li><strong>Day 16 – SQL Analytical Layer:</strong> Reusable analytical queries and KPI building (<a href="https://github.com/eisha-tur-razia-11/SQL-Analytical-Layer---Day-16-Submission-eisha-tur-razia-11-" target="_blank">View</a>).</li>
             </ul>
         </div>
 
+        <!-- Education -->
         <div class="section">
-            <h2>Skills & Expertise</h2>
+            <h2>🎓 Education</h2>
             <ul>
-                <li><strong>Development:</strong> Web Design, Game Development, Coding</li>
-                <li><strong>Marketing & Management:</strong> Hosting, Marketing, PR Officer</li>
-                <li><strong>Media:</strong> Photo & Video Editing, Website Layout & Building</li>
-                <li><strong>Languages:</strong> English, Urdu</li>
+                <li><strong>BS Computer Science (2024 – 2028):</strong> Ibadat International University Islamabad</li>
+                <li><strong>FSC ICS (2018 – 2024):</strong> Punjab Board (Marks: 646 / 1100)</li>
+                <li><strong>Matric (2014 – 2018):</strong> Punjab Board (Marks: 645 / 1100)</li>
             </ul>
         </div>
 
+        <!-- Certifications -->
         <div class="section">
-            <h2>Connect & Contact</h2>
-            <p class="contact-info">📍 Khanna Pul near Abdullah Masjid, Rawalpindi</p>
-            <p class="contact-info">📧 Email: maryam7861st@gmail.com</p>
-            <p class="contact-info">📞 Phone: +3495299952</p>
+            <h2>🏆 Certifications</h2>
+            <ul>
+                <li><a href="https://www.coursera.org/account/accomplishments/records/1PN29E1N96N8" target="_blank">Coursera Credential 1</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/records/KO19AACQU5DL" target="_blank">Coursera Credential 2</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/records/9R22NUUKWC2S" target="_blank">Coursera Credential 3</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/records/46K2TZN7I2WL" target="_blank">Coursera Credential 4</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/records/92C3PEGC1IVO" target="_blank">Coursera Credential 5</a></li>
+            </ul>
         </div>
+
+        <!-- Languages & Contact -->
+        <div class="section">
+            <h2>🌐 Languages & Contact</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🗣️ Languages</h3>
+                    <p>• English<br>• Urdu</p>
+                </div>
+                <div class="card">
+                    <h3>📫 Contact Details</h3>
+                    <p class="contact-info">📍 Khanna Pul near Abdullah Masjid, Rawalpindi</p>
+                    <p class="contact-info">📧 Email: <a href="mailto:maryam7861st@gmail.com">maryam7861st@gmail.com</a></p>
+                    <p class="contact-info">📞 Phone: +3495299952</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
