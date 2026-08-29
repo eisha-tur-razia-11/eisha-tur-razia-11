@@ -165,8 +165,11 @@ const eisha = {
 ## 🌐 Connect With Me
 
 <p>
+  <a href="https://eisha-tur-razia-11.github.io/eisha-tur-razia-11/">
+    <img src="https://img.shields.io/badge/Website_Portfolio-Live-7dd3fc?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio Website" />
+  </a>
   <a href="https://github.com/eisha-tur-razia-11">
-    <img src="https://img.shields.io/badge/Portfolio-GitHub_Profile-7dd3fc?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio Badge" />
+    <img src="https://img.shields.io/badge/GitHub-Profile-7dd3fc?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
   </a>
   <a href="https://www.linkedin.com/in/eisha-tur-razia-730a13366">
     <img src="https://img.shields.io/badge/LinkedIn-Eisha_Tur_Razia-7dd3fc?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
